@@ -1,4 +1,4 @@
-# vant_exer
+# element_exer
 
 ## Project setup
 ```

@@ -88,6 +88,13 @@
 				</el-main>
 			</el-container>
 		</el-container>
+		
+		<div class="icon">
+			<i class="el-icon-edit"></i>
+			<i class="el-icon-share"></i>
+			<i class="el-icon-delete"></i>
+			<el-button type="primary" icon="el-icon-search">搜索</el-button>
+		</div>
 	</div>
 </template>
 
@@ -99,11 +106,11 @@
 			const item = {
 				date: '2016-05-02',
 				name: '王小虎',
-				address: '上海市普陀区金沙江路 1518 弄'
+				address: '上海市普陀区金沙江路 1518 弄',
 			};
 
 			return {
-				tableData: Array(20).fill(item)
+				tableData: Array(20).fill(item),
 			};
 		},
 	};

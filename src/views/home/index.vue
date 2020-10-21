@@ -28,6 +28,10 @@
 					name: 'container',
 					url: '/container',
 				},
+				{
+					name: 'input',
+					url: '/input',
+				},
 			],
 		} ),
 		

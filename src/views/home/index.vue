@@ -32,6 +32,10 @@
 					name: 'input',
 					url: '/input',
 				},
+				{
+					name: 'select',
+					url: '/select',
+				},
 			],
 		} ),
 		

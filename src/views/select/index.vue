@@ -1,5 +1,5 @@
 <template>
-	<div class="select">
+	<div class="ele-select">
 		<!-- 远程搜索 -->
 		<div>
 			<el-select v-model="value" multiple filterable remote reserve-keyword placeholder="please input keyword" :remote-method="remoteMethod" :loading="loading">
@@ -11,7 +11,7 @@
 
 <script>
 export default {
-	name: 'select',
+	name: 'ele-select',
 
 	props: {
 		propName: {
@@ -135,5 +135,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-	@import 'style';
+	@import "style";
 </style>

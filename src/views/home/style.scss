@@ -1,3 +1,17 @@
 .home {
-	width: 100%;
+	&-link {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 60px;
+		
+		span {
+			padding: 20px;
+			background-color: #030;
+			border-radius: 15px;
+			box-shadow: 0 5px 10px 0 #0f0;
+			color: #0f0;
+			font-size: 20px;
+		}
+	}
 }

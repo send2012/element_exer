@@ -32,7 +32,12 @@ const routes = [
 		name: 'input',
 		component: () => import( '@/views/input/' ),
 	},
-]
+	{
+		path: '/select',
+		name: 'select',
+		component: () => import( '@/views/select/' ),
+	},
+];
 
 const router = new VueRouter( {
 	routes,

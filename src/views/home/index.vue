@@ -36,6 +36,10 @@
 					name: 'select',
 					url: '/select',
 				},
+				{
+					name: 'cascader',
+					url: '/cascader'
+				},
 			],
 		} ),
 		

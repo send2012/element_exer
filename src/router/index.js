@@ -37,6 +37,11 @@ const routes = [
 		name: 'select',
 		component: () => import( '@/views/select/' ),
 	},
+	{
+		path: '/cascader',
+		name: 'cascader',
+		component: () => import( '@/views/cascader/' ),
+	},
 ];
 
 const router = new VueRouter( {
